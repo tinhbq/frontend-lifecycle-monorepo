@@ -58,13 +58,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  deploy:
-    name: Deploy Production
+  # deploy:
+  #   name: Deploy Production
 
-    needs: release
+  #   needs: release
 
-    if: needs.release.outputs.released == 'true'
+  #   if: needs.release.outputs.released == 'true'
 
-    uses: ./.github/workflows/deploy.yml
+  #   uses: ./.github/workflows/deploy.yml
 
-    secrets: inherit
+  #   secrets: inherit
