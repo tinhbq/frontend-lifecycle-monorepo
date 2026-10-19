@@ -11,6 +11,8 @@ function App() {
           alert(formatCurrency(1000));
         }}
       />
+
+      <p>Some new features</p>
     </>
   );
 }
