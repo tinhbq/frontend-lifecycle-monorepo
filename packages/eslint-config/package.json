@@ -3,6 +3,17 @@
     "version": "1.0.0",
     "private": true,
     "type": "module",
+    "peerDependencies": {
+        "eslint": "^10.0.0",
+        "typescript": ">=5.0.0 <6.1.0"
+    },
+    "dependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-plugin-react-refresh": "^0.5.7",
+        "globals": "^17.13.0",
+        "typescript-eslint": "^8.69.0"
+    },
     "exports": {
         "./react": "./react.js"
     }
